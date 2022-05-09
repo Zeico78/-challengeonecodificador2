@@ -1,0 +1,233 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+
+body header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 80px;
+    top: 40px;
+    
+}
+
+body header .logo{
+    position: absolute;
+    left: 6.67%;
+    right: 37.43%;
+    top: 0%;
+    bottom: 0%;
+
+}
+main {
+    display: block;
+}
+
+main .simbolo{
+    position: absolute;
+    left: 240px;
+    right: 1184px;
+    top: 852px;
+    bottom: 156px;
+}
+main h6{
+    position: absolute;
+    left: 264px;
+    right: 900px;
+    top: 851px;
+    bottom: 155px;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #495057;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 885px;
+}
+.encriptar{
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 0px;
+    top: 0px;
+    background: #0A3871;
+    border-radius: 24px;
+    border: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 1s all;
+    cursor:pointer;
+}
+.encriptar:hover{
+    background: darkblue;
+    transform: scale(1.05);
+}
+.desencriptar{
+    position: static;
+    width: 328px;
+    height: 67px;
+    left: 352px;
+    top: 0px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #D8DFE8;
+    margin:0 0 0 17px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    transition: 1s all;
+    cursor:pointer;
+}
+.desencriptar:hover{
+    background: cornflowerblue;
+    transform: scale(1.05);
+}
+#entrada{
+    display: block;
+    position: absolute;
+    width: 650px;
+    height: 577px;
+    left: 240px;
+    top: 150px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background: #F3F5FC;
+    border-style: none;
+    color: internal #F3F5FC;
+    outline: none;
+}
+#entrada::placeholder {
+    color: #0A3871;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+.Rectangulo{
+    position: absolute;
+    width: 400px;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+#result{
+    position: absolute;
+    width: 336px;
+    height: 781px;
+    left: 1032px;
+    top: 72px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #495057;
+    border-style: none;
+    color: internal #F3F5FC;
+    outline: none;
+    display:none;
+}
+
+.muneco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 1032px;
+    top: 283px;
+}
+.no-hay-respuesta{
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 1032px;
+    top: 619px;
+}
+h2{
+    position: static;
+    width: 336px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+    color: #343A40;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+}
+h5{
+    position: static;
+    width: 336px;
+    height: 48px;
+    left: 0px;
+    top: 74px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+#copiar{
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 1032px;
+    top: 885px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    background: #D8DFE8;
+    margin:0 0 0 17px;
+    transition: 1s all;
+    cursor:pointer;
+    display:none;
+}
+
+#copiar:hover{
+    background: lime;
+    transform: scale(1.05);
+}
